@@ -1,7 +1,12 @@
-export default function App() {
+import React from 'react'
+import Countries from './components/Countries'
+
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+      <Countries />
+    </div>
   )
 }
+
+export default App
